@@ -3,7 +3,10 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont # Pillow fork
 import os
 
-#un cambio!
+# más cambios!!!
+
+
+# otro cambio!
 
 ttf = "DejaVuSansMono-Bold.ttf"             # An installed truetype font
 w, h = 660, 500                             # height, width

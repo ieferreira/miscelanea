@@ -3,6 +3,9 @@ import numpy as np
 import sys
 import time
 
+
+# este es un cambio para github!!
+# para probar conexión
 pygame.init()
 
 width, height = 600,600
