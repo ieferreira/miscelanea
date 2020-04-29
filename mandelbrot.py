@@ -3,6 +3,8 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFont # Pillow fork
 import os
 
+#un cambio!
+
 ttf = "DejaVuSansMono-Bold.ttf"             # An installed truetype font
 w, h = 660, 500                             # height, width
 font_a = ImageFont.truetype(ttf, h // 20)   # font size
