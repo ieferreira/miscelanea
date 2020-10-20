@@ -8,7 +8,7 @@ sismos = pd.read_excel('reporte763.xlsx')
 lats = np.asarray(sismos['LATITUD (grados)'])
 lons = np.asarray(sismos['LONGITUD (grados)'])
 
-transformer = Transformer.from_crs(4326, 3116)
+transformer = Transformer.from_crs(4326, 3116) # <- 4326 es WGS84 y 3116 es MAGNA-SIRGAS
 puntos = list(zip(lats, lons))
 
 
